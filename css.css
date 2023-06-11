@@ -1,0 +1,337 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-image: url(./hero\ image.png);
+    background-position: center;
+}
+
+nav {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 120px;
+}
+
+.logo {
+    transform: translateX(-50px);
+    /* border: 2px solid red; */
+    width: 120px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    /* border: 2px solid rgb(0, 21, 255); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+ul button {
+    height: 37px;
+    width: 147px;
+    background-color: #FF7400;
+    color: #fff;
+}
+
+ul h3 {
+    color: #fff;
+    margin-right: 30px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+/* CONTAINEr-2    FAZA-2 */
+
+
+.container2 {
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+    margin-top: 200px;
+}
+
+.intri {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid green; */
+    position: absolute;
+    transform: translateY(-290px) translateX(220px);
+}
+
+.intro {
+    /* border: 2px solid blue; */
+    width: 249px;
+    height: 228px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    margin-left: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.intro:nth-child(2) img {
+    margin-bottom: 125px;
+    position: absolute;
+}
+
+.intro:nth-child(2) .vmeste {
+    margin-top: 45px;
+}
+
+.vmeste {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.vmeste h1 {
+    font-size: 18px;
+    color: #2C2C2C;
+}
+
+.vmeste span {
+    font-size: 18px;
+    color: #BC9060;
+    margin-left: 10px;
+}
+
+.intro p {
+    color: #656363;
+    /* border: 2px solid red; */
+}
+
+
+
+
+/* banner - 3 - faza */
+
+
+
+.banner {
+    background-image: url(./delicious-1866631_1920\ 1.png);
+    object-fit: contain;
+    background-position: center;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_left {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.579);
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 100%;
+}
+
+.banner_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid blue; */
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.579);
+}
+
+.banner_right button {
+    margin-left: 260px;
+    height: 40px;
+    width: 130px;
+    border: none;
+    background-color: #FF7400;
+    color: #fff;
+}
+
+.banner_left h1 {
+    color: #D67E34;
+    margin-left: 230px;
+}
+
+.banner_left h4 {
+    margin-left: 230px;
+    margin-top: 17px;
+    font-size: 21px;
+    color: #fff;
+}
+
+/* FAZA -4 cena */
+
+
+.cena {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.zagalovok {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    transform: translateY(100px);
+}
+
+.zagalovok h1 {
+    font-size: 35px;
+}
+
+.zagalovok span {
+    font-size: 35px;
+    margin-left: 10px;
+    color: #D67E34;
+}
+
+.carts {
+    /* border: 2px solid red; */
+    /* width: 100%; */
+    /* margin-top: 140px; */
+    transform: translateY(200px);
+}
+
+
+/* faza -5  bar */
+
+.banner2 {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    background-image: url(./bar-1869656_1920\ 2.png);
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.karti {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carta_edi {
+    width: 190px;
+    height: 270px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-left: 20px;
+}
+
+.carta_edi h1 {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.carta_edi p {
+    font-size: 13px;
+}
+
+.carta_edi button {
+    border: none;
+    width: 120px;
+    height: 25px;
+    background-color: #D67E34;
+    color: #fff;
+    margin-top: 10px;
+}
+
+
+.zaga {
+    color: #fff;
+    font-size: 33px;
+    /* border: 2px solid red; */
+    transform: translateY(-105px);
+}
+
+/* faza - 6 otziv */
+
+
+.otziv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 450px;
+    /* left: 0px; */
+    /* top: 4145px; */
+    background: #E6E5E5;
+}
+
+.otziv p {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+}
+
+.otziv img {
+    border-radius: 50%;
+    margin-top: 16px;
+}
+
+.otziv h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.otziv h3 {
+    margin-top: 7px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #000000;
+}
